@@ -32,3 +32,4 @@ yarn-error.log*
 
 node_modules
 .parcel-cache
+frontend/dist/*
