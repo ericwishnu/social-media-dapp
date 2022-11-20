@@ -81,3 +81,17 @@ h1, h2, h3, h4, h5, h6 {
   background-size: auto;
   
 }
+
+
+.featured-post-2{
+  /* The image used */
+
+  /* Full height */
+  height: 250px; 
+  width: 200px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}

@@ -26,8 +26,10 @@ const FeaturedArticleTwoColumn = ({ allPosts, setUiPleaseWait, setAllPosts,  con
             <p className="card-text mb-auto">{featuredPostLeft.description}</p>
             <a href="#" className="stretched-link">Continue reading</a>
             </div>
-            <div className="col-auto d-none d-lg-block">
-            <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+            <div className="col-auto d-none d-lg-block featured-post-2" style={{backgroundImage: `url(${featuredPostLeft.media})`}} >
+              {/* <img className="bd-placeholder-img rounded mx-auto d-block"  src={featuredPostLeft.media} alt=""/> */}
+            {/* <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
 
             </div>
         </div>
@@ -41,9 +43,10 @@ const FeaturedArticleTwoColumn = ({ allPosts, setUiPleaseWait, setAllPosts,  con
             <p className="mb-auto">{featuredPostRight.description}</p>
             <a href="#" className="stretched-link">Continue reading</a>
             </div>
-            <div className="col-auto d-none d-lg-block">
-            <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            
+            <div className="col-auto d-none d-lg-block featured-post-2" style={{backgroundImage: `url(${featuredPostRight.media})`}} >
+            {/* <svg className="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> */}
+            {/* <img className="img-fluid bd-placeholder-img rounded mx-auto d-block"   src={featuredPostRight.media} alt=""/> */}
             </div>
         </div>
         </div>
